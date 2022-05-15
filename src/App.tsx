@@ -22,7 +22,7 @@ function App() {
         <nav>
           <Link to="/">Home</Link>
           <Link to="/private">Página Privada</Link>
-          {auth.user && <a href="javascript:void(0)" onClick={handleLogout}>Sair</a>}
+          {auth.user && <button onClick={handleLogout}>Sair</button>}
         </nav>
       </header>
       <hr />
